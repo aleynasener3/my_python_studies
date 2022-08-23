@@ -1,12 +1,12 @@
 def asal_sayi():
-    for i in range (2,5):
+    for i in range (1000):
         if(i==2):
             yield i
         
         elif (i>2):
             j=2
             x=0
-            while (j<=i):
+            while (j<i):
                 
                 if (i%j==0):
                     x+=1
